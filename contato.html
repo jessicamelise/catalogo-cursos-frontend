@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Faculdade Impacta | Contato</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img alt="logo da faculdade Impacta" src="imagens/impacta-logo.png" />
+                </a>
+                <a href="sobre.html">Sobre a Faculdade</a>
+                <a href="contato.html">Contato</a>
+                <div>
+                    Cursos
+                    <div>
+                        <a href="cursos/ads.html">Análise e Desenvolvimento e Sistemas</a>
+                        <a href="cursos/bd.html">Banco de Dados</a>
+                        <a href="cursos/gti.html">Gestão da Tecnologia da Informação</a>
+                        <a href="cursos/si.html">Sistemas da Informação</a>
+                    </div>
+                </div>
+                <a href="entrar.html">Entrar</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Entre em Contato</h1>
+            <!-- com método post no formulário as informações são passadas com mais segurança e não na url quando clica no botão submit -->
+            <!-- informações de nome e e-mail enviadas aparecem na parte de inspecionar, aba network -->
+            <form method="POST" action="">
+                <div>
+                    <!-- label for indica relação com input com mesmo valor de id -->
+                    <label for="campo-nome">Nome:</label>
+                    <input id="campo-nome" name="nome" type="text">
+                </div>
+                <div>
+                    <label for="campo-email">E-mail:</label>
+                    <input id="campo-email" name="email" type="email">
+                </div>
+                <div>
+                    <label for="campo-assunto">Assunto</label>
+                    <select name="assunto" id="campo-assunto">
+                        <option value="bug">Bug</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="sugestao">Sugestão</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="campo-mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="campo-mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar Contato</button>
+                    <button type="reset">Limpar Formulário</button>
+                    <button type="button">Botão</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/FacImpacta/" target="blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/faculdadeimpacta/" target="blank">Instagram</a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/edu/faculdade-impacta-tecnologia-161006/" target="blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/facimpacta/" target="blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/GrupoImpacta/" target="blank">Youtube</a>
+                </li>
+            </ul>
+            <p>2020 Faculdade Impacta 11 3254-8300 Todos os direitos reservados.</p>
+        </footer>
+    </body>
+
+</html>
