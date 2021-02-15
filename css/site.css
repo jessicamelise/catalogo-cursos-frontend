@@ -1,0 +1,15 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: black; 
+    color: white;
+}
+
+.botao {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
