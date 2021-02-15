@@ -5,7 +5,13 @@
 .premio {
     background-color: var(--cor-escura);
     color: var(--cor-branca);
+    display: inline-block;
     text-align: center;
+    width: 35rem;
+    height: 40rem;
+    padding: 0.5em;
+    border: 3px solid yellow;
+    margin: 0.6rem;
 }
 
 .premio h3 {
